@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	
-	              int n,i,count=0,k;
+	              int n,i,sum=0,k;
 	              int a[] = new int[10];
 	              Scanner s = new Scanner (System.in);
 	              n = s.nextInt();
@@ -21,8 +21,8 @@ class Ideone
 	              }
 	              for ( i =0;i<k;i++)
 	              {
-	              	 count = count + a[i];
+	              	 sum = sum + a[i];
 	              }
-	              System.out.println(count);
+	              System.out.println(sum);
 	  	}
 }
